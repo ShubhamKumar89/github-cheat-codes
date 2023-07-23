@@ -11,3 +11,9 @@ git branch -a
 ```bash
 [Link Text](relative/path/to/file)
 ```
+
+3. To restore all files in your project to their state at the last commit.
+
+```bash
+git restore --source=HEAD :/<filename>
+```
