@@ -17,3 +17,9 @@ git branch -a
 ```bash
 git restore --source=HEAD :/<filename>
 ```
+
+4. To view all releases of a repository:
+
+```bash
+git tag
+```
